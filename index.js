@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 8080
 const axios = require('axios')
 app.use(express.json())
 app.use(cors())
-
+//////////////////
 
 app.get("/getdata",
     (req, response) => {
